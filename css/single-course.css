@@ -1,0 +1,952 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+@media (min-width: 1440px) {
+  .single-course .container {
+    width: 1260px;
+    margin: 0 auto;
+  }
+}
+
+section.top-ad-sec .container-fluid {
+  background: #f7f7f7;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.single-course section#content {
+  background: #fff;
+}
+
+.single-course .for-ad-top {
+  padding: 20px;
+}
+
+.single-course div#buddypress {
+  margin-top: 0 !important;
+  padding: 30px 0;
+}
+
+/* Style the tab */
+.single-course .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.single-course .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: "Roboto";
+}
+
+.single-course div#item-body h6 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.single-course .the-Tab-functional .tab-content div#menu1 p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+/* Change background color of buttons on hover */
+.single-course .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.single-course .tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.single-course .tabcontent {
+  display: block;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.single-course #item-header {
+  transition: all 0.3s ease-out;
+}
+
+.single-course div#item-body {
+  padding-top: 0;
+  background: #fff;
+}
+.single-course div#item-header-avatar {
+  border: 0 !important;
+  transition: all 0.3s ease-out;
+  position: static;
+  top: 300px;
+}
+.single-course div#item-header-avatar img {
+  transition: all 0.3s ease-out;
+}
+/* Breadcumb & Title */
+
+.single-course div#item-body .course_title ul.breadcrumbs li a {
+  color: #465159;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  font-weight: 300pc;
+}
+
+.single-course div#item-body .course_title .breadcrumbs li.current span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #1581af;
+  line-height: 18px;
+  font-family: "Roboto";
+  text-transform: capitalize;
+}
+
+.single-course div#item-body .course_title h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: "Roboto";
+  color: #2d3941;
+}
+
+.single-course div#item-body .course_title h6 p {
+  color: #2d3941;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+/* Publisher box */
+
+.single-course .course-publisher-and-start-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: initial;
+  margin: 25px 0;
+}
+
+.single-course .course-publisher-and-start-btn .publisher {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.single-course .course-publisher-and-start-btn .the-start-btn {
+  margin: 0 15px;
+}
+
+.single-course .course-publisher-and-start-btn .the-start-btn a {
+  padding: 20px 10px !important;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: "Roboto";
+}
+
+.single-course .course-publisher-and-start-btn .publisher h6 {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  color: #465159;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.single-course .course-publisher-and-start-btn .publisher h6 a {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+  color: #2d3941;
+  line-height: 26px;
+  font-family: "Roboto";
+}
+
+.single-course .course-publisher-and-start-btn .publisher span img {
+  border-radius: 100%;
+  max-width: 60px;
+  margin: 0 15px;
+}
+
+/* Left Sidebar */
+
+.single-course .for-specific-styling-left-sidebar .col-md-3.col-sm-12 {
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgb(0 0 0 / 16%);
+  overflow: hidden;
+  padding: 0;
+}
+
+.single-course .for-specific-styling-left-sidebar div#item-header-content h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Roboto";
+  color: #2d3941;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.single-course .students_undertaking {
+  margin: 0;
+  padding: 0;
+}
+
+.single-course .for-specific-styling-left-sidebar div#item-header-content {
+  padding: 15px 15px 0 15px;
+}
+
+.single-course .for-specific-styling-left-sidebar .widget.pricing {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.single-course .students_undertaking span i,
+.single-course .students_undertaking span strong {
+  color: #465159;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.single-course .course_curriculum.accordion {
+  border: 0;
+}
+
+.single-course .the-Tab-functional {
+  border: 1px solid #b7c1c4;
+  padding: 20px 0;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+.single-course .the-Tab-functional .course_curriculum .course_section > td {
+  border: none;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #465159;
+  max-height: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 24px;
+  font-family: "Roboto";
+}
+
+.single-course
+  .the-Tab-functional
+  .course_curriculum.accordion
+  .course_section.show
+  > td:after {
+  content: "\f078";
+}
+
+.single-course
+  .the-Tab-functional
+  .course_curriculum.accordion
+  .course_section
+  > td:after {
+  content: "\f077";
+  color: #000000;
+  font-size: 24px;
+  right: 20px;
+  top: 15px;
+}
+
+.single-course .the-Tab-functional .course_curriculum .course_section {
+  border: 0;
+  border-bottom: 1px solid #b7c1c4;
+}
+
+.single-course .the-Tab-functional a.course_button.full.button {
+  width: 180px;
+  height: 64px;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  border-radius: 8px;
+  content: attr(data-lang);
+  color: #fff !important;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.single-course .the-Tab-functional .course_curriculum .course_lesson > td a {
+  color: #4d5860;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  text-decoration: underline;
+  font-family: "Roboto";
+}
+
+.single-course .the-Tab-functional ul.nav.nav-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 20px;
+}
+
+.single-course .the-Tab-functional ul.nav.nav-tabs li a {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #1581af;
+}
+
+.single-course .the-Tab-functional ul.nav.nav-tabs li a:hover {
+  font-weight: 600;
+}
+
+.single-course .the-Tab-functional div#menu1 p {
+  padding: 15px;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #2d3941;
+}
+
+.single-course .the-Tab-functional div#menu1 a {
+  width: 185px;
+  height: 60px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  font-family: "Roboto";
+}
+
+.single-course .the-Tab-functional div#menu1 .course_button {
+  margin-left: 10px;
+}
+
+.single-course .course-categories-div .catgories-starting-heading {
+  display: flex;
+  flex-direction: revert;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.single-course .course-categories-div .catgories-starting-heading h4,
+.single-course .course-categories-div .catgories-starting-heading i {
+  color: #2d3941;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "Roboto";
+}
+
+.single-course .catgories-starting-heading i {
+  margin-right: 10px;
+}
+
+.single-course .course-categories-div {
+  margin: 50px 0;
+  background: #f3f6f7;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.single-course .course-categories-div .course-tags li a {
+  border: 1px solid #1581af;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  color: #1581af;
+  border-radius: 20px;
+  margin: 10px 0;
+  font-family: "Roboto";
+}
+
+.single-course .course-categories-div ul.course-tags li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.single-course .the-Tab-functional div#menu2 {
+  padding: 30px;
+}
+
+.single-course .the-Tab-functional div#menu2 p {
+  color: #2d3941;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: "Roboto";
+}
+
+.single-course .the-Tab-functional div#menu2 h6 b {
+  color: #2d3941;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.single-course .the-Tab-functional div#menu2 ul.cert-offers-ali li {
+  color: #465159;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.single-course
+  .the-Tab-functional
+  div#menu2
+  .the-div-sshowing-sample-cert-and-its-des {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.single-course
+  .the-Tab-functional
+  div#menu2
+  .the-div-sshowing-sample-cert-and-its-des
+  .the-des-ali
+  h5 {
+  font-size: 14px;
+  line-height: 18px;
+  width: 278px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.single-course
+  .the-Tab-functional
+  div#menu2
+  .the-div-sshowing-sample-cert-and-its-des
+  .the-des-ali
+  h5
+  span {
+  color: #005e9d;
+}
+
+.single-course
+  .the-Tab-functional
+  div#menu2
+  .the-div-sshowing-sample-cert-and-its-des
+  .the-des-ali
+  ol
+  li {
+  color: #465159;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 15px 0;
+  font-family: "Roboto";
+}
+
+.single-course
+  .the-Tab-functional
+  div#menu2
+  .the-div-sshowing-sample-cert-and-its-des
+  .the-des-ali
+  ol {
+  list-style: disc;
+}
+
+.single-course
+  .the-Tab-functional
+  div#menu2
+  .the-div-sshowing-sample-cert-and-its-des
+  .the-des-ali
+  ol
+  li
+  span {
+  font-weight: 700;
+}
+
+.single-course
+  .the-Tab-functional
+  div#menu2
+  .the-div-sshowing-sample-cert-and-its-des
+  .the-cert-img-btn
+  img {
+  width: 300px;
+}
+
+.single-course .the-what-you-will-learn {
+  background: #f3f6f7;
+  color: #2d3941;
+  padding: 25px;
+  margin: 25px 0;
+  font-size: 14px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  position: relative;
+}
+
+.single-course .the-what-you-will-learn .for-absolute {
+  position: absolute;
+  top: -85px;
+  right: 0;
+}
+
+.single-course .the-what-you-will-learn h4 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #2d3941;
+  font-family: "Roboto";
+}
+
+.single-course .the-what-you-will-learn ul {
+  column-count: 2;
+}
+
+.single-course .the-what-you-will-learn ul li {
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 0px;
+  position: relative;
+  text-overflow: ellipsis;
+  color: #2d3941;
+  line-height: 22px;
+  font-family: "Roboto";
+}
+
+.single-course .the-what-you-will-learn ul li i {
+  color: #2d3941 !important;
+}
+
+.single-course .ali-cpd-cert-div {
+  background: #ebf5db;
+  padding: 15px;
+  border-radius: 10px;
+  color: #2d3941;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Roboto";
+}
+
+.single-course .the-ali-cpd-item-list-and-img-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.single-course .the-ali-cpd-item-list-and-img-div .the-ali-cpd-head h3 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  font-family: "Roboto";
+  color: #2d3941;
+}
+
+.single-course .the-ali-cpd-item-list-and-img-div .ali-itmes-list-imgs ul li {
+  display: inline;
+}
+
+.single-course .the-ali-cpd-item-list-and-img-div ul li h3 {
+  color: #465159;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.single-course .the-ali-cpd-item-list-and-img-div .the-cert-img-btn img {
+  width: 300px;
+}
+
+.single-course .the-ali-cpd-item-list-and-img-div a.course_button.full.button {
+  width: 180px;
+  height: 72px;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  border-radius: 8px;
+  content: attr(data-lang);
+  color: #fff !important;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.single-course .the-ali-cpd-item-list-and-img-div .ali-itmes-list-imgs ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.single-course .the-ali-cpd-item-list-and-img-div .ali-itmes-list-imgs ul {
+  margin: 0 50px 0 0;
+}
+
+.single-course
+  .the-ali-cpd-item-list-and-img-div
+  .for-flexing-cpd-list-head-des {
+  margin: 0 0 0 5px;
+}
+
+.single-course .the-ali-free-includes-div h4 {
+  font-size: 14px;
+  line-height: 16px;
+  color: #2d3941;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.single-course .the-ali-free-includes-div .the-free-includes-list ul li {
+  display: inline-flex;
+  margin: 6px 5px;
+  color: #465159;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+.single-course .the-ali-free-includes-div .the-free-includes-list ul li img {
+  max-width: 15px;
+  margin: 0px 5px;
+  border: 0;
+}
+
+.single-course .left-side-publisher {
+  padding: 14px 35px;
+  background: #f3f6f7;
+  margin: 0px -15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.single-course .left-side-publisher .profile-avatar img {
+  width: 65px;
+  padding: 0;
+  border-radius: 100%;
+}
+
+.single-course .left-side-publisher .profile-name h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #465159;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.single-course .left-side-publisher .profile-name h6 a {
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.single-course .single-course div#item-header-content .students_undertaking {
+  border: 0;
+}
+
+.single-course .the-ali-cpd-head h3 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.single-course .for-flexing-cpd-list-head-des p {
+  font-family: "Roboto";
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.single-course .students_undertaking span {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.single-course .for-specific-styling-left-sidebar .widget.pricing a {
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.single-course .single-course .breadcrumbs li + li:before {
+  content: ">";
+  color: #c0c9cb;
+  font-size: 12px;
+  margin-right: 7px;
+  font-weight: 700;
+}
+
+.single-course .for-ad-bottom .the-ad-div {
+  position: fixed;
+}
+
+.single-course ul.cert-offers-ali li img {
+  width: 15px;
+  border: 0;
+  margin: 5px 5px 0 0;
+}
+
+/* Tab */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .single-course .for-specific-styling-left-sidebar div#item-header-content h3 {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "Roboto";
+    text-align: center;
+  }
+
+  .single-course .for-specific-styling-left-sidebar .students_undertaking {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+
+  .single-course .the-free-includes-list {
+    display: inline-block;
+  }
+}
+
+.single-course .ali-rating {
+  align-items: center;
+  background: #e4f1f6;
+  display: flex;
+  height: 41px;
+  justify-content: space-between;
+  margin: 10px -19px 16px;
+  padding: 0 17px;
+  position: relative;
+}
+
+.single-course .ali-rating > div {
+  color: #2d3941;
+  cursor: pointer;
+}
+
+.single-course .ali-rating > div {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.single-course .left-start-course-ali input.course_button.full.button {
+  display: block;
+  border-radius: 8px;
+  width: 100%;
+  padding: 0 !important;
+  font-size: 15px;
+  font-weight: 700;
+  height: 53px;
+  letter-spacing: 1px;
+  text-transform: capitalize !important;
+  font-family: "Roboto";
+}
+
+.single-course .the-start-btn input.course_button.full.button {
+  padding: 0 !important;
+  width: 202px;
+  height: 46px;
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  /* background: #009b5d !important; */
+  letter-spacing: 1px;
+  font-family: "Roboto";
+}
+
+.single-course .forCirrriculnBtn input.course_button.full.button {
+  /* padding: 16px 200px 16px 56px !important; */
+  display: block;
+  width: 160px;
+  padding: 0 !important;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto";
+}
+
+.single-course .course-des-ali-btn input.course_button.full.button {
+  padding: 0 !important;
+  width: 230px;
+  height: 50px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 30px;
+  /* text-transform: capitalize !important; */
+  font-family: "Roboto";
+}
+
+.single-course .different-btn-ali input.course_button.full.button {
+  padding: 0 !important;
+  color: #465159;
+  width: 136px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 40px;
+  background: transparent !important;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  font-family: "Roboto";
+}
+
+.single-course .the-Tab-functional .nav-tabs > li.active > a {
+  color: #1581af;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #1581af;
+  font-weight: 700 !important;
+}
+
+.single-course .different-btn-ali input.course_button.full.button:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .single-course div#item-body .course_title ul.breadcrumbs li a {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .single-course .course-publisher-and-start-btn {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .single-course .the-what-you-will-learn {
+    padding: 10px;
+  }
+
+  .single-course .the-what-you-will-learn h4 {
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+  .single-course .the-what-you-will-learn ul {
+    column-count: 1;
+  }
+
+  .single-course .the-Tab-functional ul.nav.nav-tabs {
+    flex-direction: column;
+  }
+
+  .single-course .course_curriculum.accordion .course_lesson.show {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: initial;
+    align-content: center;
+    padding: 0;
+  }
+
+  .single-course
+    .the-Tab-functional
+    div#menu2
+    .the-div-sshowing-sample-cert-and-its-des {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: initial;
+    padding: 0px 0px;
+  }
+
+  .single-course
+    .the-Tab-functional
+    div#menu2
+    .the-div-sshowing-sample-cert-and-its-des
+    .the-des-ali
+    ol
+    li {
+    margin: 0 5px 10px 0;
+  }
+
+  .single-course .course-categories-div .catgories-starting-heading h4,
+  .single-course .course-categories-div .catgories-starting-heading i {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .single-course .course-categories-div ul.course-tags li {
+    display: flex;
+    margin: 5px 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-course .the-ali-cpd-head h3 {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .single-course .the-ali-cpd-item-list-and-img-div {
+    flex-direction: column;
+  }
+
+  .single-course
+    .the-ali-cpd-item-list-and-img-div
+    .for-flexing-cpd-list-head-des {
+    margin: 0 0 20px 5px;
+  }
+
+  .single-course div#item-body {
+    margin-top: 25px;
+  }
+}
+
+.single-course .forCirrriculnBtn input.course_button.full.button {
+  display: none;
+  transition: 0.1s;
+}
+
+.single-course .ali-the-reactions {
+  text-align: center;
+  background: #e4f1f6;
+  margin: 8px -15px 8px;
+  padding: 10px 0;
+}
+
+.single-course .ali-the-reactions .pld-like-dislike-wrap {
+  display: inline-block;
+  margin-bottom: 0;
+}
